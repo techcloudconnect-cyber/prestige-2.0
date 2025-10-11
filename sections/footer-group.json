@@ -26,7 +26,7 @@
           "type": "text",
           "settings": {
             "title": "Liquor Control Reform",
-            "content": "<p>Under the Liquor Control Reform Act 1998 it is an offence:<br/>-To supply alcohol to a person under the age of 18 years. The penalty exceeds $17,000.<br/>-It is an offence for a person under the age of 18 years to purchase or receive liquor. <br/>The penalty exceeds $700.<br/>Bottle Lux (Liquor Licence #36173500) supports the responsible Service of Alcohol.</p>",
+            "content": "<p>Under the Liquor Control Reform Act 1998 it is an offence:<br/>-To supply alcohol to a person under the age of 18 years. The penalty exceeds $17,000.<br/>-It is an offence for a person under the age of 18 years to purchase or receive liquor. <br/><br/>The penalty exceeds $700.<br/>Bottle Lux (Liquor Licence #36173500) supports the responsible Service of Alcohol.</p>",
             "enable_follow_on_shop": false
           }
         },
