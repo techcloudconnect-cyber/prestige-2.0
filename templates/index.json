@@ -764,7 +764,7 @@
       ],
       "name": "Review Text Columns",
       "settings": {
-        "enable_pagewidth": false,
+        "enable_pagewidth": true,
         "show_curve_bg": false,
         "section_title": "What our customers say",
         "sub_title": "",
