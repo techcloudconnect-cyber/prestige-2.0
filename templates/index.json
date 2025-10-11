@@ -1,1 +1,388 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slide-1":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/top-view-charming-grapes-overturned-wine-glass-wine-bottle-wine-opener-black-table.jpg","subheading":"Handpicked Wines from Around the World – Delivered to Your Doorstep","title":"LET BOTTLELUX UNCORK THE EXTRAORDINARY FOR YOU","mobile_text_position":"place-self-center text-center","desktop_text_position":"sm:place-self-center sm:text-center","content_max_width":1200,"button_1_text":"View Products","button_1_link":"shopify:\/\/collections\/all","button_1_style":"solid","button_1_background":"#ffffff","button_1_text_color":"#000000","button_2_text":"Explore Collections","button_2_link":"shopify:\/\/collections","button_2_style":"outline","button_2_background":"#ffffff","button_2_text_color":"#000000","background":"","background_opacity":50,"text_color":"#ffffff","border_color":"","gradient_overlay":"linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"}}},"block_order":["slide-1"],"custom_css":[],"settings":{"allow_transparent_header":false,"show_next_section_button":true,"media_size":"fill","show_initial_transition":false,"autoplay":true,"autoplay_pause_on_video":false,"cycle_speed":4,"background":"#ffffff","controls_color":"#ffffff"}},"rich_text_MhMtyf":{"type":"rich-text","blocks":{"subheading_RBRRte":{"type":"subheading","settings":{"text":"Bottle Luxe"}},"heading_UJTYHG":{"type":"heading","settings":{"text":"Discover the perfect bottle for every occasion at our wine store!","heading_tag":"h4"}},"richtext_FkiUbt":{"type":"richtext","settings":{"content":"<p>From rich, full-bodied reds to crisp, refreshing whites, we bring you handpicked selections from the world’s finest vineyards. Whether you're celebrating a special moment or simply unwinding after a long day, our wines promise exceptional taste and quality in every sip. Cheers to great flavors and even better memories<\/p>"}},"button_ApbdpF":{"type":"button","settings":{"style":"solid","text":"Read More","url":"shopify:\/\/pages\/about-us","background":"","text_color":""}}},"block_order":["subheading_RBRRte","heading_UJTYHG","richtext_FkiUbt","button_ApbdpF"],"settings":{"color_scheme":"scheme-3","separate_section_with_border":false,"content_width":"sm","text_position":"center","remove_vertical_spacing":false}},"featured_collections_TbXEYQ":{"type":"featured-collections","blocks":{"collection_eQwiCf":{"type":"collection","settings":{"collection":"best-buys","products_count":12,"title":"","link_url":"shopify:\/\/collections\/best-buys","link_text":"View all"}},"collection_nVbgjD":{"type":"collection","settings":{"collection":"lets-celebrate","products_count":12,"title":"","link_url":"shopify:\/\/collections\/lets-celebrate","link_text":"View all"}}},"block_order":["collection_eQwiCf","collection_nVbgjD"],"settings":{"color_scheme":"","separate_section_with_border":true,"hide_product_information":false,"stack_products":false,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"Featured Collections"}},"collection_list_LtMBtL":{"type":"collection-list","blocks":{"collection_gVJAny":{"type":"collection","settings":{"color_scheme":"scheme-2","collection":"sparkling","image":"shopify:\/\/shop_images\/drop_shadow.png","expand_collection":true,"content_position":"place-self-end-center text-center","subheading":"","title":"Sparkling","button_text":"View products","button_link":"","button_style":"solid","overlay_color":"#000000","overlay_opacity":40}},"collection_i4KLPX":{"type":"collection","settings":{"color_scheme":"scheme-2","collection":"chardonnay","image":"shopify:\/\/shop_images\/chard.png","expand_collection":false,"content_position":"place-self-end-center text-center","subheading":"","title":"Chardonnay","button_text":"View products","button_link":"","button_style":"solid","overlay_color":"#000000","overlay_opacity":15}},"collection_FCY9DW":{"type":"collection","settings":{"color_scheme":"scheme-2","collection":"sauvignon-blanc","image":"shopify:\/\/shop_images\/sauvignon_blanc_34d4360c-4178-4ff1-ad76-4c864ad68f67.png","expand_collection":false,"content_position":"place-self-end-center text-center","subheading":"","title":"Sauvignon Blanc","button_text":"View products","button_link":"","button_style":"solid","overlay_color":"#000000","overlay_opacity":30}}},"block_order":["collection_gVJAny","collection_i4KLPX","collection_FCY9DW"],"custom_css":[".collection-card__content {background-color: #00000070; border-radius: 10px;}"],"settings":{"color_scheme":"scheme-3","separate_section_with_border":true,"image_size":"auto","show_text_outside":false,"space_items":true,"stack_collections":true,"collections_per_row_mobile":"1","collections_per_row_desktop":3,"subheading":"","title":"","content":""}},"featured_collections_rxrPMD":{"type":"featured-collections","blocks":{"collection_Ckxjfz":{"type":"collection","settings":{"collection":"albert-bichot","products_count":8,"title":"","link_url":"","link_text":"View all"}},"collection_tX7rM6":{"type":"collection","settings":{"collection":"barbaresco","products_count":8,"title":"","link_url":"","link_text":"View all"}}},"block_order":["collection_Ckxjfz","collection_tX7rM6"],"settings":{"color_scheme":"","separate_section_with_border":true,"hide_product_information":false,"stack_products":true,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"All time best"}},"multi_column_rkDEyA":{"type":"multi-column","blocks":{"image_with_text_YDYPNJ":{"type":"image_with_text","settings":{"title":"<strong>Exquisite Selection<\/strong>","heading_tag":"h4","content":"<p>Discover a handpicked collection of premium wines from renowned vineyards around the world. From rich reds to refreshing whites, every bottle is chosen to delight your palate.<\/p>","link_url":"","link_text":""}},"image_with_text_3RwXQz":{"type":"image_with_text","settings":{"title":"<strong>Unmatched Quality<\/strong>","heading_tag":"h4","content":"<p>We bring you only the finest wines, crafted with passion and precision. Each bottle is a testament to superior winemaking, ensuring an unforgettable experience in every sip.<\/p>","link_url":"","link_text":""}},"image_with_text_7qxxB3":{"type":"image_with_text","settings":{"title":"<strong>Timeless Elegance<\/strong>","heading_tag":"h4","content":"<p>Whether celebrating a special occasion or enjoying a quiet evening, our wines add a touch of sophistication to every moment. Pour, savor, and create lasting memories. <\/p>","link_url":"","link_text":""}}},"block_order":["image_with_text_YDYPNJ","image_with_text_3RwXQz","image_with_text_7qxxB3"],"settings":{"color_scheme":"scheme-3","separate_section_with_border":true,"columns_per_row":3,"stack_on_mobile":true,"overlap_image":false,"content_alignment":"center","text_alignment":"center","spacing":"sm","subheading":"","title":"The Art of Fine Wine","content":""}},"featured_collections_wk3EqK":{"type":"featured-collections","blocks":{"collection_GFdVa9":{"type":"collection","settings":{"collection":"bests-great-western","products_count":8,"title":"","link_url":"","link_text":"View all"}},"collection_AxbbPn":{"type":"collection","settings":{"collection":"cabernet","products_count":8,"title":"","link_url":"","link_text":"View all"}}},"block_order":["collection_GFdVa9","collection_AxbbPn"],"settings":{"color_scheme":"scheme-1","separate_section_with_border":true,"hide_product_information":false,"stack_products":true,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"Best Selling"}},"newsletter_DG3Ctr":{"type":"newsletter","disabled":true,"settings":{"color_scheme":"","separate_section_with_border":true,"image_size":"sm","image":"shopify:\/\/shop_images\/natalie-64RJ6tzXpTk-unsplash.jpg","subheading":"Keep me updated","title":"Newsletter","content":"<p>Subscribe now and get Discounts & Offers directly to your email.<\/p>","button_text":"Subscribe","overlay_color":"#000000","overlay_opacity":60}}},"order":["slideshow","rich_text_MhMtyf","featured_collections_TbXEYQ","collection_list_LtMBtL","featured_collections_rxrPMD","multi_column_rkDEyA","featured_collections_wk3EqK","newsletter_DG3Ctr"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/top-view-charming-grapes-overturned-wine-glass-wine-bottle-wine-opener-black-table.jpg",
+            "subheading": "Handpicked Wines from Around the World – Delivered to Your Doorstep",
+            "title": "LET BOTTLELUX UNCORK THE EXTRAORDINARY FOR YOU",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 1200,
+            "button_1_text": "View Products",
+            "button_1_link": "shopify://collections/all",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "Explore Collections",
+            "button_2_link": "shopify://collections",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": true,
+        "media_size": "fill",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_MhMtyf": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_RBRRte": {
+          "type": "subheading",
+          "settings": {
+            "text": "Bottle Luxe"
+          }
+        },
+        "heading_UJTYHG": {
+          "type": "heading",
+          "settings": {
+            "text": "Discover the perfect bottle for every occasion at our wine store!",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_FkiUbt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>From rich, full-bodied reds to crisp, refreshing whites, we bring you handpicked selections from the world’s finest vineyards. Whether you're celebrating a special moment or simply unwinding after a long day, our wines promise exceptional taste and quality in every sip. Cheers to great flavors and even better memories</p>"
+          }
+        },
+        "button_ApbdpF": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Read More",
+            "url": "shopify://pages/about-us",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RBRRte",
+        "heading_UJTYHG",
+        "richtext_FkiUbt",
+        "button_ApbdpF"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "featured_collections_TbXEYQ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_eQwiCf": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-buys",
+            "products_count": 12,
+            "title": "",
+            "link_url": "shopify://collections/best-buys",
+            "link_text": ""
+          }
+        },
+        "collection_nVbgjD": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "lets-celebrate",
+            "products_count": 12,
+            "title": "",
+            "link_url": "shopify://collections/lets-celebrate",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_eQwiCf",
+        "collection_nVbgjD"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "collection_list_LtMBtL": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_gVJAny": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "collection": "sparkling",
+            "image": "shopify://shop_images/drop_shadow.png",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "Sparkling",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "collection_i4KLPX": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "collection": "chardonnay",
+            "image": "shopify://shop_images/chard.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "Chardonnay",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "collection_FCY9DW": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "collection": "sauvignon-blanc",
+            "image": "shopify://shop_images/sauvignon_blanc_34d4360c-4178-4ff1-ad76-4c864ad68f67.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-center text-center",
+            "subheading": "",
+            "title": "Sauvignon Blanc",
+            "button_text": "View products",
+            "button_link": "",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_gVJAny",
+        "collection_i4KLPX",
+        "collection_FCY9DW"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".collection-card__content {background-color: #00000070; border-radius: 10px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "featured_collections_rxrPMD": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Ckxjfz": {
+          "type": "collection",
+          "settings": {
+            "collection": "albert-bichot",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "collection_tX7rM6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "barbaresco",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Ckxjfz",
+        "collection_tX7rM6"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "multi_column_rkDEyA": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_YDYPNJ": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>Exquisite Selection</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Discover a handpicked collection of premium wines from renowned vineyards around the world. From rich reds to refreshing whites, every bottle is chosen to delight your palate.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_3RwXQz": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>Unmatched Quality</strong>",
+            "heading_tag": "h4",
+            "content": "<p>We bring you only the finest wines, crafted with passion and precision. Each bottle is a testament to superior winemaking, ensuring an unforgettable experience in every sip.</p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_7qxxB3": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>Timeless Elegance</strong>",
+            "heading_tag": "h4",
+            "content": "<p>Whether celebrating a special occasion or enjoying a quiet evening, our wines add a touch of sophistication to every moment. Pour, savor, and create lasting memories. </p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_YDYPNJ",
+        "image_with_text_3RwXQz",
+        "image_with_text_7qxxB3"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "The Art of Fine Wine",
+        "content": ""
+      }
+    },
+    "featured_collections_wk3EqK": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_GFdVa9": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "bests-great-western",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_AxbbPn": {
+          "type": "collection",
+          "settings": {
+            "collection": "cabernet",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_GFdVa9",
+        "collection_AxbbPn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "newsletter_DG3Ctr": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "sm",
+        "image": "shopify://shop_images/natalie-64RJ6tzXpTk-unsplash.jpg",
+        "subheading": "Keep me updated",
+        "title": "Newsletter",
+        "content": "<p>Subscribe now and get Discounts & Offers directly to your email.</p>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich_text_MhMtyf",
+    "featured_collections_TbXEYQ",
+    "collection_list_LtMBtL",
+    "featured_collections_rxrPMD",
+    "multi_column_rkDEyA",
+    "featured_collections_wk3EqK",
+    "newsletter_DG3Ctr"
+  ]
+}
