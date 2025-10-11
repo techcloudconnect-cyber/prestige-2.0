@@ -171,12 +171,30 @@
             "products_count": 12,
             "title": "",
             "link_url": "shopify://collections/best-buys",
-            "link_text": ""
+            "link_text": "View All"
           }
-        },
-        "collection_nVbgjD": {
+        }
+      },
+      "block_order": [
+        "collection_eQwiCf"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_GNitf3": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_JHK3mJ": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "lets-celebrate",
             "products_count": 12,
@@ -187,8 +205,7 @@
         }
       },
       "block_order": [
-        "collection_eQwiCf",
-        "collection_nVbgjD"
+        "collection_JHK3mJ"
       ],
       "settings": {
         "color_scheme": "",
@@ -290,12 +307,30 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": ""
+            "link_text": "View all"
           }
-        },
-        "collection_tX7rM6": {
+        }
+      },
+      "block_order": [
+        "collection_Ckxjfz"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_hErfCN": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_QkRMDJ": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "barbaresco",
             "products_count": 8,
@@ -306,14 +341,13 @@
         }
       },
       "block_order": [
-        "collection_Ckxjfz",
-        "collection_tX7rM6"
+        "collection_QkRMDJ"
       ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
@@ -324,17 +358,6 @@
     "featured_collections_wk3EqK": {
       "type": "featured-collections",
       "blocks": {
-        "collection_GFdVa9": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "bests-great-western",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        },
         "collection_AxbbPn": {
           "type": "collection",
           "settings": {
@@ -342,19 +365,47 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": ""
+            "link_text": "View All"
           }
         }
       },
       "block_order": [
-        "collection_GFdVa9",
         "collection_AxbbPn"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "separate_section_with_border": true,
         "hide_product_information": false,
-        "stack_products": true,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_NV4ddk": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_igaxw9": {
+          "type": "collection",
+          "settings": {
+            "collection": "bests-great-western",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_igaxw9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
@@ -384,9 +435,12 @@
     "multicolumn_v1_RTKkmg",
     "rich_text_MhMtyf",
     "featured_collections_TbXEYQ",
+    "featured_collections_GNitf3",
     "collection_list_LtMBtL",
     "featured_collections_rxrPMD",
+    "featured_collections_hErfCN",
     "featured_collections_wk3EqK",
+    "featured_collections_NV4ddk",
     "newsletter_DG3Ctr"
   ]
 }
