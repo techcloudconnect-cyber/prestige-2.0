@@ -207,8 +207,7 @@ height:100%;
 
           <button type="button" aria-controls="{{ quick_buy_id }}" class="product-card__quick-add-button">
             <span class="sr-only">{{ 'product.general.choose_options' | t }}</span>
-           <span>Add To Cart</span>
-            {%- render 'icon' with 'plus' -%}
+           <span> Add To Cart {%- render 'icon' with 'plus' -%}</span>
           </button>
 
           <quick-buy-modal handle="{{ product.handle }}?variant={{ product.selected_or_first_available_variant.id }}" class="quick-buy-modal modal" id="{{ quick_buy_id }}">
