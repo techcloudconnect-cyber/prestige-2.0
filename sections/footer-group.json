@@ -1,1 +1,73 @@
-{"type":"footer","name":"Footer group","sections":{"footer":{"type":"footer","blocks":{"text_yfQKaX":{"type":"text","settings":{"title":"BOTTLE LUX","content":"<p>Ph: 0419 382 800<\/p><p>Email: Sales@bottlelux.com.au<\/p>","enable_follow_on_shop":true}},"links_Mf763w":{"type":"links","settings":{"menu":"policies","show_menu_title":true,"menu_title":""}},"newsletter_LG67iF":{"type":"newsletter","settings":{"title":"Subscribe now","content":"<p>Join us to receive exclusive offers.<\/p>","button_background":"","button_text_color":""}},"text_crVEm3":{"type":"text","settings":{"title":"Liquor Control Reform","content":"<p>Under the Liquor Control Reform Act 1998 it is an offence:<br\/>-To supply alcohol to a person under the age of 18 years. The penalty exceeds $17,000.<br\/>-It is an offence for a person under the age of 18 years to purchase or receive liquor. The<br\/>penalty exceeds $700.<br\/>Bottle Lux (Liquor Licence #36173500) supports the responsible Service of Alcohol.<\/p>","enable_follow_on_shop":true}}},"block_order":["text_yfQKaX","links_Mf763w","newsletter_LG67iF","text_crVEm3"],"custom_css":[],"settings":{"color_scheme":"scheme-3","separate_section_with_border":false,"show_social_media":true,"show_payment_icons":true,"show_country_selector":true,"show_country_name":true,"show_country_flag":true,"show_locale_selector":true}}},"order":["footer"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_yfQKaX": {
+          "type": "text",
+          "settings": {
+            "title": "BOTTLE LUX",
+            "content": "<p>Ph: 0419 382 800</p><p>Email: Sales@bottlelux.com.au</p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "text_crVEm3": {
+          "type": "text",
+          "settings": {
+            "title": "Liquor Control Reform",
+            "content": "<p>Under the Liquor Control Reform Act 1998 it is an offence:<br/>-To supply alcohol to a person under the age of 18 years. The penalty exceeds $17,000.<br/>-It is an offence for a person under the age of 18 years to purchase or receive liquor. <br/>The penalty exceeds $700.<br/>Bottle Lux (Liquor Licence #36173500) supports the responsible Service of Alcohol.</p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "links_Mf763w": {
+          "type": "links",
+          "settings": {
+            "menu": "policies",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "newsletter_LG67iF": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Subscribe now",
+            "content": "<p>Join us to receive exclusive offers.</p>",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_yfQKaX",
+        "text_crVEm3",
+        "links_Mf763w",
+        "newsletter_LG67iF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
