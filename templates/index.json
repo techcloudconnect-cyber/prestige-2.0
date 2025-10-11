@@ -707,10 +707,10 @@
         "text_column_d47d8C": {
           "type": "text_column",
           "settings": {
-            "block-review-icon": "shopify://shop_images/stars.svg",
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
-            "arthur": "",
+            "text": "<p>BottleLux has become my go-to for premium wines. Great selection, smooth checkout, and secure payment process. Highly recommend for anyone who appreciates good taste.</p>",
+            "arthur": "James R",
+            "arthur-review-icon": "shopify://shop_images/stars.svg",
             "arthur-rating-text": ""
           }
         },
@@ -718,8 +718,9 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
-            "arthur": "",
+            "text": "<p>Loved the experience! The return policy gave me peace of mind, but I didn’t even need it — everything was perfect. The bottle presentation was top-notch.</p>",
+            "arthur": "Olivia P",
+            "arthur-review-icon": "shopify://shop_images/stars.svg",
             "arthur-rating-text": ""
           }
         },
@@ -729,6 +730,7 @@
             "title": "",
             "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
             "arthur": "",
+            "arthur-review-icon": "shopify://shop_images/stars.svg",
             "arthur-rating-text": ""
           }
         },
