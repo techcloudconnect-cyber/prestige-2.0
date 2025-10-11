@@ -766,17 +766,18 @@
       "settings": {
         "enable_pagewidth": false,
         "show_curve_bg": false,
-        "section_title": "",
+        "section_title": "What our customers say",
         "sub_title": "",
         "review_bg": "#ffffff",
         "review_text": "#000",
         "nav_button_color": "#000000",
         "nav_button_bg": "#ffffff",
         "nav_button_size": 40,
-        "section_rtext": "",
+        "section_image": "shopify://shop_images/stars.svg",
+        "section_rtext": "Verified Customers",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 20,
+        "padding_bottom": 40,
         "margin_top": 0,
         "margin_bottom": 0
       }
