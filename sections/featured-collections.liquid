@@ -6,10 +6,10 @@
       --product-list-vertical-spacing-factor: {{ section.settings.vertical_spacing_factor }};
     }
     .product-card .badge {
-    width: 65%;
-    padding: 1.5rem;
-    border-radius: 50px;
-    font-size:1rem;
+      width: 65%;
+      padding: 1rem;
+      font-size:0.6rem;
+      border-radius: 50px;
     }
 
     @media screen and (min-width: 700px) {
@@ -17,8 +17,8 @@
         --product-list-items-per-row: {{ section.settings.products_per_row_desktop }};
       }
        .product-card .badge {
-      padding: 1rem;
-      font-size:0.6rem;
+        font-size:1rem;
+        padding: 1.5rem;
       }
     }
   </style>
