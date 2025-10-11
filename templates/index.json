@@ -118,37 +118,37 @@
         "margin_bottom_mobile": 0
       }
     },
-    "multi_column_rkDEyA": {
-      "type": "multi-column",
+    "multicolumn_v1_RTKkmg": {
+      "type": "multicolumn-v1",
       "blocks": {
-        "image_with_text_YDYPNJ": {
+        "image_with_text_nP4Tyy": {
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/wine-glass-solid-full.svg",
             "title": "",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "content": "<p>16 million bottles shipped globally</p>",
             "link_url": "",
             "link_text": ""
           }
         },
-        "image_with_text_3RwXQz": {
+        "image_with_text_mfpbaM": {
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/shield-halved-solid-full.svg",
             "title": "",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "content": "<p>Safe, Verified, and Secure Payments</p>",
             "link_url": "",
             "link_text": ""
           }
         },
-        "image_with_text_7qxxB3": {
+        "image_with_text_FKABNB": {
           "type": "image_with_text",
           "settings": {
             "image": "shopify://shop_images/rotate-left-solid-full.svg",
             "title": "",
-            "heading_tag": "h4",
+            "heading_tag": "h3",
             "content": "<p>Hassle-Free Returns Policy</p>",
             "link_url": "",
             "link_text": ""
@@ -156,19 +156,20 @@
         }
       },
       "block_order": [
-        "image_with_text_YDYPNJ",
-        "image_with_text_3RwXQz",
-        "image_with_text_7qxxB3"
+        "image_with_text_nP4Tyy",
+        "image_with_text_mfpbaM",
+        "image_with_text_FKABNB"
       ],
+      "name": "Multicolumn V1",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "separate_section_with_border": true,
         "columns_per_row": 3,
-        "stack_on_mobile": true,
+        "stack_on_mobile": false,
         "overlap_image": false,
-        "content_alignment": "center",
-        "text_alignment": "center",
-        "spacing": "sm",
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
         "subheading": "",
         "title": "",
         "content": ""
@@ -443,7 +444,7 @@
   "order": [
     "slideshow",
     "scrollingsection_JU3rb7",
-    "multi_column_rkDEyA",
+    "multicolumn_v1_RTKkmg",
     "rich_text_MhMtyf",
     "featured_collections_TbXEYQ",
     "collection_list_LtMBtL",
