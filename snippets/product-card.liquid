@@ -84,7 +84,9 @@ Supported variables
         {%- endif -%}
       </a>
 
-      {%- if show_quick_buy and product.available -%}
+      
+    </div>
+    {%- if show_quick_buy and product.available -%}
         {%- if product.variants.size == 1 and product.selling_plan_groups.size == 0 -%}
           <product-form>
             {%- form 'product', product -%}
@@ -109,7 +111,6 @@ Supported variables
           </quick-buy-modal>
         {%- endif -%}
       {%- endif -%}
-    </div>
   {%- endif -%}
 
   {%- comment -%}
