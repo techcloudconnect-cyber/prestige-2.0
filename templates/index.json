@@ -361,7 +361,7 @@
         "collection_QkRMDJ": {
           "type": "collection",
           "settings": {
-            "collection": "barbaresco",
+            "collection": "sale",
             "products_count": 8,
             "title": "",
             "link_url": "",
@@ -419,6 +419,249 @@
         "collection_igaxw9": {
           "type": "collection",
           "settings": {
+            "collection": "shiraz",
+            "products_count": 8,
+            "title": "Shiraz Wines",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_igaxw9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_bEM7wU": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6Mqbfn": {
+          "type": "collection",
+          "settings": {
+            "collection": "pinot-noir",
+            "products_count": 8,
+            "title": "Pinot Noir Wines",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6Mqbfn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_XfQ8Wh": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_rffVPa": {
+          "type": "collection",
+          "settings": {
+            "collection": "chardonnay",
+            "products_count": 8,
+            "title": "Chardonnay Wines",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_rffVPa"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_gJRNn8": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_TDm9W9": {
+          "type": "collection",
+          "settings": {
+            "collection": "sauvignon-blanc",
+            "products_count": 8,
+            "title": "Sauvignon Blanc Wines",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_TDm9W9"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_wCKJLE": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_VHR8V8": {
+          "type": "collection",
+          "settings": {
+            "collection": "pinot-grigio-1",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_VHR8V8"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_JULtnt": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_aCnGDx": {
+          "type": "collection",
+          "settings": {
+            "collection": "rose",
+            "products_count": 8,
+            "title": "Rosé Wines",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_aCnGDx"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_BD4grQ": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_QAfLTL": {
+          "type": "collection",
+          "settings": {
+            "collection": "champagne",
+            "products_count": 8,
+            "title": "Champagne",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        },
+        "collection_DcXtBf": {
+          "type": "collection",
+          "settings": {
+            "collection": "sparkling",
+            "products_count": 8,
+            "title": "& Sparkling",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_QAfLTL",
+        "collection_DcXtBf"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_yr86kX": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_H37ypg": {
+          "type": "collection",
+          "settings": {
+            "collection": "annais",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_H37ypg"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "featured_collections_q3CmCb": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Jkf3it": {
+          "type": "collection",
+          "settings": {
             "collection": "bests-great-western",
             "products_count": 8,
             "title": "",
@@ -428,7 +671,7 @@
         }
       },
       "block_order": [
-        "collection_igaxw9"
+        "collection_Jkf3it"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -471,6 +714,14 @@
     "featured_collections_hErfCN",
     "featured_collections_wk3EqK",
     "featured_collections_NV4ddk",
+    "featured_collections_bEM7wU",
+    "featured_collections_XfQ8Wh",
+    "featured_collections_gJRNn8",
+    "featured_collections_wCKJLE",
+    "featured_collections_JULtnt",
+    "featured_collections_BD4grQ",
+    "featured_collections_yr86kX",
+    "featured_collections_q3CmCb",
     "newsletter_DG3Ctr"
   ]
 }
