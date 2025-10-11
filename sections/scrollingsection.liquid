@@ -1,0 +1,463 @@
+<style>
+  .scrolling_bar {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .scrolling_bar .container {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+  }
+  .scrolling_bar.image_with_text .marquee {
+    gap: 50px;
+  }
+  .scrolling_bar.text .marquee,
+  .scrolling_bar.image .marquee {
+    {% comment %} gap: 100px; edited {% endcomment %}
+    gap: 50px;
+  }
+  .scrolling_bar .marquee {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    animation: marquee-scroll var(--scroll-duration) linear infinite;
+  }
+  .scrolling_bar.image .bar_item {
+    display: flex;
+  }
+  .scrolling_bar h2 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin:0;
+  }
+  .scrolling_bar .bar_image_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .scrolling-image img {
+  vertical-align: text-bottom;
+  }
+  .scrolling_bar.image_with_text .marquee_image_style {
+    width: auto;
+    height: 32px;
+    /* max-width:100%;
+    object-fit: contain; */
+  }
+  .scrolling-image {
+    width: auto;
+    height: 100%;
+    line-height: 0;
+    max-width: 100%;
+    object-fit: contain;
+}
+  /* .scrolling_bar.image img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+    max-width: fit-content;
+  } */
+  @keyframes marquee-scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+  #scrolling_bar-{{ section.id }} .marquee {
+  animation: marquee-scroll {{ section.settings.scroll_time }}s linear infinite;
+}
+
+@media screen and (max-width: 991px) {
+  #scrolling_bar-{{ section.id }} .marquee {
+    animation-duration: {{ section.settings.mobile_scroll_time }}s;
+  }
+}
+</style>
+{% style %}
+#scrolling_bar-{{ section.id }} {
+  background: {{section.settings.bg_color}};
+  padding-top: {{ section.settings.padding_top_desktop }}px;
+  padding-bottom: {{ section.settings.padding_bottom_desktop }}px;
+  margin-top: {{ section.settings.margin_top_desktop }}px;
+  margin-bottom: {{ section.settings.margin_bottom_desktop }}px;
+ }
+{% if section.settings.headline_font_style == 'top' %}
+  #scrolling_bar-{{ section.id }} h2 {
+    margin-top: 5px;
+  }
+  {% else %}
+  #scrolling_bar-{{ section.id }} h2 {
+  }
+{% endif %}
+{% for block in section.blocks %}
+  #bar_item-{{ block.id }} h2 {
+      color: {{block.settings.text_color}};
+      font-size: {{ block.settings.desktop_font_size }}px;
+      line-height: {{ block.settings.desktop_font_size }}px;
+      font-weight: {{ block.settings.desktop_font_weight }};
+  }
+{% endfor %}
+{% if section.settings.hide_desktop %}
+  #shopify-section-{{section.id}} {
+    display: none;
+  }
+{% endif %}
+@media screen and (max-width: 991px) {
+  #scrolling_bar-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+      margin-top: {{ section.settings.margin_top_mobile }}px;
+      margin-bottom: {{ section.settings.margin_bottom_mobile }}px;
+  }
+  {% for block in section.blocks %}
+     #bar_item-{{ block.id }} h2 {
+      font-size: {{ block.settings.mobile_font_size }}px;
+      line-height: {{ block.settings.mobile_font_size }}px;
+      font-weight: {{ block.settings.mobile_font_weight }};
+    }
+  {% endfor %}
+  {% if section.settings.hide_desktop %}
+    #shopify-section-{{section.id}} {
+      display: block;
+    }
+  {% endif %}
+  {% if section.settings.hide_mobile %}
+    #shopify-section-{{section.id}} {
+      display: none;
+    }
+  {% endif %}
+}
+{% endstyle %}
+{% for block in section.blocks %}
+{% case block.type %}
+  {% when 'text' %}
+    {% assign class = 'text' %}
+  {% when 'image' %}
+    {% assign class = 'image' %}
+  {% when 'image_with_text' %}
+    {% assign class = 'image_with_text' %}
+{% endcase %}
+{% endfor %}
+<section class="scrolling_bar {{ class }}" id="scrolling_bar-{{ section.id }}" aria-hidden="true">
+<div class="container">
+  <div class="marquee" style="--play:running; --direction:normal; --delay:0s; --iteration-count:infinite;">
+    {% for i in (1..3) %}
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'text' %}
+            <div class="bar_item" id="bar_item-{{ block.id }}">
+              {% if block.settings.add_text != blank %}
+                <h2>{{ block.settings.add_text }}</h2>
+              {% endif %}
+            </div>
+          {% when 'image' %}
+            {% if block.settings.add_image != blank %}
+              {{
+                block.settings.add_image
+                | image_url: width: block.settings.add_image.width
+                | image_tag: loading: 'lazy'
+              }}
+            {% endif %}
+          {% when 'image_with_text' %}
+            <div class="bar_item" id="bar_item-{{ block.id }}">
+              <div class="bar_image_text">
+                <div class="scrolling-image">
+                  {% if block.settings.this_image or block.settings.this_text != blank %}
+                    {{
+                      block.settings.this_image
+                      | image_url: width: block.settings.this_image.width
+                      | image_tag: loading: 'lazy', class: 'marquee_image_style'
+                    }}
+                  {% endif %}
+                </div>
+                <div class="scrolling-text">
+                  {% if block.settings.this_text != blank %}
+                    <h2>{{ block.settings.this_text }}</h2>
+                  {% endif %}
+                </div>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>
+</section>
+<!--
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('#scrolling_bar-{{ section.id }} .marquee').forEach(function(marquee) {
+      const duration = getComputedStyle(marquee).getPropertyValue('--scroll-duration').trim();
+      marquee.style.animationDuration = duration;
+      const content = marquee.innerHTML;
+      marquee.innerHTML += content;
+    });
+  });
+</script>
+-->
+{% schema %}
+{
+"name": "Scrolling Bar",
+"settings": [
+  {
+    "type": "checkbox",
+    "id": "hide_desktop",
+    "label": "Hide Desktop",
+    "default": false
+  },
+  {
+    "type": "checkbox",
+    "id": "hide_mobile",
+    "label": "Hide Mobile",
+    "default": false
+  },
+  {
+    "type": "header",
+    "content": "Content"
+  },
+  {
+    "type": "range",
+    "id": "scroll_time",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "s",
+    "label": "Desktop Scroll Time",
+    "default": 50
+  },
+  {
+    "type": "range",
+    "id": "mobile_scroll_time",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "s",
+    "label": "Mobile Scroll Time",
+    "default": 50
+  },
+
+  {
+    "type": "color",
+    "id": "bg_color",
+    "label": "BG Color",
+    "default": "#E9522E"
+  },
+  {
+    "type": "header",
+    "content": "Section Spacing Settings"
+  },
+  {
+    "type": "range",
+    "id": "padding_top_desktop",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Padding Top Desktop",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom_desktop",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Padding Bottom Desktop",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "margin_top_desktop",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Margin Top Desktop",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "margin_bottom_desktop",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Margin Bottom Desktop",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "padding_top_mobile",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Padding Top Mobile",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom_mobile",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Padding Bottom Mobile",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "margin_top_mobile",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Margin Top Mobile",
+    "default": 0
+  },
+  {
+    "type": "range",
+    "id": "margin_bottom_mobile",
+    "min": 0,
+    "max": 100,
+    "step": 5,
+    "unit": "px",
+    "label": "Margin Bottom Mobile",
+    "default": 0
+  }
+],
+"blocks": [
+  {
+    "type": "text",
+    "name": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "id": "add_text",
+        "label": "Add text"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#F0F0F0"
+      },
+      {
+        "type": "range",
+        "id": "desktop_font_size",
+        "label": "Desktop Font Size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "mobile_font_size",
+        "label": "Mobile Font Size",
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "default": 32
+      },
+      {
+        "type": "range",
+        "id": "desktop_font_weight",
+        "label": "Desktop Font Weight",
+        "min": 100,
+        "max": 900,
+        "step": 100,
+        "default": 400
+      },
+      {
+        "type": "range",
+        "id": "mobile_font_weight",
+        "label": "Mobile Font Weight",
+        "min": 100,
+        "max": 900,
+        "step": 100,
+        "default": 400
+      }
+    ]
+  },
+  {
+    "type": "image",
+    "name": "Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "add_image",
+        "label": "Add Image"
+      }
+    ]
+  },
+  {
+    "type": "image_with_text",
+    "name": "Icon With Text",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "this_image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "this_text",
+        "label": "Add Text"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default": "#F0F0F0"
+      },
+      {
+        "type": "range",
+        "id": "desktop_font_size",
+        "label": "Desktop Font Size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "mobile_font_size",
+        "label": "Mobile Font Size",
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "default": 32
+      },
+      {
+        "type": "range",
+        "id": "desktop_font_weight",
+        "label": "Desktop Font Weight",
+        "min": 100,
+        "max": 900,
+        "step": 100,
+        "default": 400
+      },
+      {
+        "type": "range",
+        "id": "mobile_font_weight",
+        "label": "Mobile Font Weight",
+        "min": 100,
+        "max": 900,
+        "step": 100,
+        "default": 400
+      }
+    ]
+  }
+],
+"presets": [
+  {
+    "name": "Custom Scrolling Bar"
+  }
+]
+}
+{% endschema %}
