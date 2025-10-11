@@ -100,6 +100,7 @@
       "name": "Multicolumn V1",
       "settings": {
         "color_scheme": "",
+        "horizontal_layout": true,
         "separate_section_with_border": true,
         "columns_per_row": 3,
         "stack_on_mobile": false,
