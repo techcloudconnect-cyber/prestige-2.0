@@ -55,69 +55,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "scrollingsection_JU3rb7": {
-      "type": "scrollingsection",
-      "blocks": {
-        "image_with_text_fdtUzg": {
-          "type": "image_with_text",
-          "settings": {
-            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
-            "this_text": "16 million bottles",
-            "text_color": "#1c1c1c",
-            "desktop_font_size": 15,
-            "mobile_font_size": 20,
-            "desktop_font_weight": 400,
-            "mobile_font_weight": 400
-          }
-        },
-        "image_with_text_V3HcJX": {
-          "type": "image_with_text",
-          "settings": {
-            "this_image": "shopify://shop_images/shield-halved-solid-full.svg",
-            "this_text": "Verified User",
-            "text_color": "#1c1c1c",
-            "desktop_font_size": 15,
-            "mobile_font_size": 20,
-            "desktop_font_weight": 400,
-            "mobile_font_weight": 400
-          }
-        },
-        "image_with_text_xFb4YN": {
-          "type": "image_with_text",
-          "settings": {
-            "this_image": "shopify://shop_images/shield-halved-solid-full.svg",
-            "this_text": "Verified User",
-            "text_color": "#1c1c1c",
-            "desktop_font_size": 15,
-            "mobile_font_size": 20,
-            "desktop_font_weight": 400,
-            "mobile_font_weight": 400
-          }
-        }
-      },
-      "block_order": [
-        "image_with_text_fdtUzg",
-        "image_with_text_V3HcJX",
-        "image_with_text_xFb4YN"
-      ],
-      "disabled": true,
-      "name": "Custom Scrolling Bar",
-      "settings": {
-        "hide_desktop": false,
-        "hide_mobile": false,
-        "scroll_time": 0,
-        "mobile_scroll_time": 0,
-        "bg_color": "#efefef",
-        "padding_top_desktop": 20,
-        "padding_bottom_desktop": 20,
-        "margin_top_desktop": 0,
-        "margin_bottom_desktop": 0,
-        "padding_top_mobile": 15,
-        "padding_bottom_mobile": 15,
-        "margin_top_mobile": 0,
-        "margin_bottom_mobile": 0
-      }
-    },
     "multicolumn_v1_RTKkmg": {
       "type": "multicolumn-v1",
       "blocks": {
@@ -167,8 +104,8 @@
         "columns_per_row": 3,
         "stack_on_mobile": false,
         "overlap_image": false,
-        "content_alignment": "start",
-        "text_alignment": "start",
+        "content_alignment": "center",
+        "text_alignment": "center",
         "spacing": "md",
         "subheading": "",
         "title": "",
@@ -443,7 +380,6 @@
   },
   "order": [
     "slideshow",
-    "scrollingsection_JU3rb7",
     "multicolumn_v1_RTKkmg",
     "rich_text_MhMtyf",
     "featured_collections_TbXEYQ",
