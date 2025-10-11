@@ -707,6 +707,7 @@
         "text_column_d47d8C": {
           "type": "text_column",
           "settings": {
+            "block-review-icon": "shopify://shop_images/stars.svg",
             "title": "",
             "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
             "arthur": "",
