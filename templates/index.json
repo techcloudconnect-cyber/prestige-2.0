@@ -700,6 +700,51 @@
         "overlay_color": "#000000",
         "overlay_opacity": 60
       }
+    },
+    "reviewsection_qQwgPH": {
+      "type": "reviewsection",
+      "blocks": {
+        "text_column_d47d8C": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        },
+        "text_column_pGKCjT": {
+          "type": "text_column",
+          "settings": {
+            "title": "",
+            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
+            "arthur": "",
+            "arthur-rating-text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_column_d47d8C",
+        "text_column_pGKCjT"
+      ],
+      "name": "Review Text Columns",
+      "settings": {
+        "enable_pagewidth": false,
+        "show_curve_bg": true,
+        "section_title": "",
+        "sub_title": "",
+        "review_bg": "#d3d3d3",
+        "review_text": "#000",
+        "nav_button_color": "#000000",
+        "nav_button_bg": "#ffffff",
+        "nav_button_size": 40,
+        "section_rtext": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "margin_top": 0,
+        "margin_bottom": 0
+      }
     }
   },
   "order": [
@@ -722,6 +767,7 @@
     "featured_collections_BD4grQ",
     "featured_collections_yr86kX",
     "featured_collections_q3CmCb",
-    "newsletter_DG3Ctr"
+    "newsletter_DG3Ctr",
+    "reviewsection_qQwgPH"
   ]
 }

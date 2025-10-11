@@ -1,206 +1,201 @@
 <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-Add the above code to theme.liquid
-
-
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <style>
-.rc-swiper {
-  padding: 1rem 0;
-}
-.review-text-columns-container .svg-wrapper {
-  height: 4rem;
-  width: 4rem;
-}
-.prev svg.icon.icon-caret {
-  transform: rotate(180deg);
-}
-.section-heading-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-  flex-direction: column;
-  line-height:normal;
-  /* max-width:65rem; */
-}
-.arthur-rating {
-  display: flex;
-}
-.arthur-rating img {
-  height: 25px;
-  width: auto;
-}
+  .rc-swiper {
+    padding: 1rem 0;
+  }
+  .review-text-columns-container .svg-wrapper {
+    height: 4rem;
+    width: 4rem;
+  }
+  .prev svg.icon.icon-caret {
+    transform: rotate(180deg);
+  }
+  .section-heading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    line-height:normal;
+    /* max-width:65rem; */
+  }
+  .arthur-rating {
+    display: flex;
+  }
+  .arthur-rating img {
+    height: 25px;
+    width: auto;
+  }
 
-/* edited .author-name {
-  font-weight: 700;
-} */
+  /* edited .author-name {
+    font-weight: 700;
+  } */
 
-.section-heading-wrapper .section-title {
-  margin: 0;
-  text-align: center;
-  font-weight: 600;
-}
-.review-arthur-rating {
-  font-size: 12px;
-  font-weight: 400;
-}
-.section-heading-wrapper .section-image {
-    max-width: 170px;
-    /* height: 100%; */
-    margin: 10px 0;
-}
-.section-heading-wrapper img.section-image {
-  width: 100%;
-  height: 100%;
-  vertical-align:middle;
-  object-fit: contain;
-}
-.review-text-columns {
-  /* display: flex; */
-  gap: 15px;
-  max-width: 100%;
-  margin: auto;
-}
-.review-text p {
-  margin: 0;
-}
-
-.review-text-wrapper {
-    padding: 2.5rem;
+  .section-heading-wrapper .section-title {
+    margin: 0;
     text-align: center;
-    display: flex;
-    gap:1rem;
-    flex-direction: column;
-    align-items: center;
-}
-
-.review-block-icon {
-    min-width: 450px;
-    max-height: 250px;
-    width: 100%;
-    height: 100%;
-}
-.rating-text-wrapper {
-    display: flex;
-    /* flex-wrap: wrap; edited */
-    gap: 1rem;
-    align-items: center;
-}
-
-.review-block-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.verified-image img {
-    width: 100%;
-    height: 100%;
-}
-
-.verified-image {
-    margin-top: 1rem;
-    width: 140px;
-}
-
-.review-column {
-    height: 100%;
-    width:100%;
-    padding: 0;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    border: solid 1px #CCCCCC;
-    overflow: hidden;
-}
-.review-column:last-child {
-    margin-right: 1rem;
-}
-
-/* .review-text p {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-} */
-.review-text-columns-container {
-  position: relative;
-  margin: 0 auto;
-  /* max-width: 140rem; */
-}
-
-.review-text-columns-container *:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
-/* .review-text {
-  padding: 1rem 0;
-  flex-grow: 1;
-} */
-.author-img {
-  max-width: 130px;
-}
-img.img-auth{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  display: block;
-}
-/* .author-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-content: flex-start;
-} */
-.author-loc {
-  font-size: 13px;
-  opacity: 0.5;
-}
-.review-arthur {
-}
-.review-head p {
-  /* margin-bottom: 0; edited */
-  margin: 0;
-}
-
-.review-text-columns-container {
-  position: relative;
-}
-
-.rtc-swiper-pagination.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
-    z-index: 1 !important;
-}
-
-.review-text-columns-section-padding {
-    max-width: 140rem;
-    /* padding: 0 0 0 4rem; */
-    margin:0 auto;
-}
-.ratingstar-text {
-    font-size: 18px;
-}
-
-@media (max-width: 990px) {
-.section-heading-wrapper {
-  max-width:100%;
-}
-
-.review-column {
-  box-sizing:border-box;
-}
-.ratingstar-text {
+    font-weight: 600;
+  }
+  .review-arthur-rating {
     font-size: 12px;
-}
-}
+    font-weight: 400;
+  }
+  .section-heading-wrapper .section-image {
+      max-width: 170px;
+      /* height: 100%; */
+      margin: 10px 0;
+  }
+  .section-heading-wrapper img.section-image {
+    width: 100%;
+    height: 100%;
+    vertical-align:middle;
+    object-fit: contain;
+  }
+  .review-text-columns {
+    /* display: flex; */
+    gap: 15px;
+    max-width: 100%;
+    margin: auto;
+  }
+  .review-text p {
+    margin: 0;
+  }
+
+  .review-text-wrapper {
+      padding: 2.5rem;
+      text-align: center;
+      display: flex;
+      gap:1rem;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .review-block-icon {
+      min-width: 450px;
+      max-height: 250px;
+      width: 100%;
+      height: 100%;
+  }
+  .rating-text-wrapper {
+      display: flex;
+      /* flex-wrap: wrap; edited */
+      gap: 1rem;
+      align-items: center;
+  }
+
+  .review-block-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .verified-image img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .verified-image {
+      margin-top: 1rem;
+      width: 140px;
+  }
+
+  .review-column {
+      height: 100%;
+      width:100%;
+      padding: 0;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      border: solid 1px #CCCCCC;
+      overflow: hidden;
+  }
+  .review-column:last-child {
+      margin-right: 1rem;
+  }
+
+  /* .review-text p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  } */
+  .review-text-columns-container {
+    position: relative;
+    margin: 0 auto;
+    /* max-width: 140rem; */
+  }
+
+  .review-text-columns-container *:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  /* .review-text {
+    padding: 1rem 0;
+    flex-grow: 1;
+  } */
+  .author-img {
+    max-width: 130px;
+  }
+  img.img-auth{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  /* .author-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-start;
+  } */
+  .author-loc {
+    font-size: 13px;
+    opacity: 0.5;
+  }
+  .review-arthur {
+  }
+  .review-head p {
+    /* margin-bottom: 0; edited */
+    margin: 0;
+  }
+
+  .review-text-columns-container {
+    position: relative;
+  }
+
+  .rtc-swiper-pagination.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+      z-index: 1 !important;
+  }
+
+  .review-text-columns-section-padding {
+      max-width: 140rem;
+      /* padding: 0 0 0 4rem; */
+      margin:0 auto;
+  }
+  .ratingstar-text {
+      font-size: 18px;
+  }
+
+  @media (max-width: 990px) {
+  .section-heading-wrapper {
+    max-width:100%;
+  }
+
+  .review-column {
+    box-sizing:border-box;
+  }
+  .ratingstar-text {
+      font-size: 12px;
+  }
+  }
 </style>
 
 {% style %}
@@ -285,10 +280,10 @@ img.img-auth{
       {% endif %}
 
       {% if section.settings.verified_image != blank %}
-      <div class="verified-image">
-        {{ section.settings.verified_image | image_url: width: 1500 | image_tag }}
-      </div>
-    {% endif %}
+        <div class="verified-image">
+          {{ section.settings.verified_image | image_url: width: 1500 | image_tag }}
+        </div>
+      {% endif %}
     </div>
 
     <div class="rc-swiper swiper review-text-columns-swiper">
@@ -370,9 +365,9 @@ img.img-auth{
 
       // Uncomment below if you want pagination
       pagination: {
-       el: '.rtc-swiper-pagination',
-       clickable: true,
-        }
+        el: '.rtc-swiper-pagination',
+        clickable: true,
+      },
     });
   });
 </script>
