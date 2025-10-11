@@ -93,7 +93,8 @@ Supported variables
               <input type="hidden" name="on_success" value="force_open_drawer">
               <input type="hidden" name="quantity" value="1">
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-              <button type="submit" class="product-card__quick-add-button">
+              {% comment %} <button type="submit" class="product-card__quick-add-button"> edited {% endcomment %}
+              <button type="submit" class="button">
                 <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span>
                 {%- render 'icon' with 'plus' -%}
               </button>
