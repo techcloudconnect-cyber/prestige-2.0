@@ -23,6 +23,12 @@ Supported variables
 * quick_buy_context: a unique text to dissociate quick buy if the same product is embedded multiple times
 {%- endcomment -%}
 
+<style>
+.atc-button{
+width:100%;
+}
+</style>
+
 {%- liquid
   if hide_product_information
     assign show_badges = false
@@ -184,7 +190,7 @@ Supported variables
               <input type="hidden" name="quantity" value="1">
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
               {% comment %} <button type="submit" class="product-card__quick-add-button"> edited {% endcomment %}
-              <button type="submit" class="button">
+              <button type="submit" class="button atc-button">
                 <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span>
                 {%- render 'icon' with 'plus' -%}
               </button>
