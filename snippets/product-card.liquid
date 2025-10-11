@@ -196,10 +196,10 @@ height:100%;
               <input type="hidden" name="quantity" value="1">
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
               {% comment %} <button type="submit" class="product-card__quick-add-button"> edited {% endcomment %}
-              <button type="submit" class="button atc-button">
-                <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span>
-                {%- render 'icon' with 'plus' -%}
-              </button>
+              <button type="button" aria-controls="{{ quick_buy_id }}" class="product-card__quick-add-button">
+            {% comment %} edited <span class="sr-only">{{ 'product.general.choose_options' | t }}</span> {% endcomment %}
+           <span> Add To Cart {%- render 'icon' with 'plus' -%}</span>
+          </button>
             {%- endform -%}
           </product-form>
         {%- else -%}
