@@ -165,7 +165,7 @@
             <div class="bar_item" id="bar_item-{{ block.id }}">
               <div class="bar_image_text">
                 <div class="scrolling-image">
-                  {% if block.settings.this_image %}
+                  {% if block.settings.this_image or block.settings.this_text != blank %}
                     {{
                       block.settings.this_image
                       | image_url: width: block.settings.this_image.width
