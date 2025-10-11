@@ -1,0 +1,570 @@
+<!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+Add the above code to theme.liquid
+
+
+
+<style>
+.rc-swiper {
+  padding: 1rem 0;
+}
+.review-text-columns-container .svg-wrapper {
+  height: 4rem;
+  width: 4rem;
+}
+.prev svg.icon.icon-caret {
+  transform: rotate(180deg);
+}
+.section-heading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  line-height:normal;
+  /* max-width:65rem; */
+}
+.arthur-rating {
+  display: flex;
+}
+.arthur-rating img {
+  height: 25px;
+  width: auto;
+}
+
+/* edited .author-name {
+  font-weight: 700;
+} */
+
+.section-heading-wrapper .section-title {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+.review-arthur-rating {
+  font-size: 12px;
+  font-weight: 400;
+}
+.section-heading-wrapper .section-image {
+    max-width: 170px;
+    /* height: 100%; */
+    margin: 10px 0;
+}
+.section-heading-wrapper img.section-image {
+  width: 100%;
+  height: 100%;
+  vertical-align:middle;
+  object-fit: contain;
+}
+.review-text-columns {
+  /* display: flex; */
+  gap: 15px;
+  max-width: 100%;
+  margin: auto;
+}
+.review-text p {
+  margin: 0;
+}
+
+.review-text-wrapper {
+    padding: 2.5rem;
+    text-align: center;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-block-icon {
+    min-width: 450px;
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+}
+.rating-text-wrapper {
+    display: flex;
+    /* flex-wrap: wrap; edited */
+    gap: 1rem;
+    align-items: center;
+}
+
+.review-block-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.verified-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.verified-image {
+    margin-top: 1rem;
+    width: 140px;
+}
+
+.review-column {
+    height: 100%;
+    width:100%;
+    padding: 0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 1px #CCCCCC;
+    overflow: hidden;
+}
+.review-column:last-child {
+    margin-right: 1rem;
+}
+
+/* .review-text p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+} */
+.review-text-columns-container {
+  position: relative;
+  margin: 0 auto;
+  /* max-width: 140rem; */
+}
+
+.review-text-columns-container *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+/* .review-text {
+  padding: 1rem 0;
+  flex-grow: 1;
+} */
+.author-img {
+  max-width: 130px;
+}
+img.img-auth{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+/* .author-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+} */
+.author-loc {
+  font-size: 13px;
+  opacity: 0.5;
+}
+.review-arthur {
+}
+.review-head p {
+  /* margin-bottom: 0; edited */
+  margin: 0;
+}
+
+.review-text-columns-container {
+  position: relative;
+}
+
+.rtc-swiper-pagination.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    z-index: 1 !important;
+}
+
+.review-text-columns-section-padding {
+    max-width: 140rem;
+    /* padding: 0 0 0 4rem; */
+    margin:0 auto;
+}
+.ratingstar-text {
+    font-size: 18px;
+}
+
+@media (max-width: 990px) {
+.section-heading-wrapper {
+  max-width:100%;
+}
+
+.review-column {
+  box-sizing:border-box;
+}
+.ratingstar-text {
+    font-size: 12px;
+}
+}
+</style>
+
+{% style %}
+  {% if section.settings.show_curve_bg %}
+    #shopify-section-{{ section.id }} {
+      position: relative;
+      background-image: url('https://cdn.shopify.com/s/files/1/0938/8133/6173/files/bgimage_rev_c7b309d5-88bb-4fc8-88c7-53b96d726af6.png?v=1755508268');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      --gradient-background: transparent;
+      background-color: transparent;
+    }
+  {% endif %}
+    #shopify-section-{{ section.id }} .review-text-columns-section  {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0}}px;
+      margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+      /* edited padding-left: 15px;
+      padding-right: 15px; */
+    }
+    #shopify-section-{{ section.id }} .review-column {
+      background-color:{{section.settings.review_bg}};
+      color:{{section.settings.review_text}};
+    }
+    .rc-swiper-slide.swiper-slide {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .review-text-columns-section  {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+      margin-top: {{ section.settings.margin_top }}px;
+      margin-bottom: {{ section.settings.margin_bottom }}px;
+    }
+    }
+    .rtc-swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background:#E3572B !important;
+    }
+
+    {% if settings.enable_body_font %}
+      #shopify-section-{{ section.id }} .review-column {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; edited */
+      flex: 1 1;
+    }
+    {% endif %}
+    /* #shopify-section-{{ section.id }} .section-heading-wrapper {
+    {% if section.settings.section_image %}
+      justify-content:space-between;
+    {% endif %}
+    } */
+{% endstyle %}
+{{ 'section-review-column.css' | asset_url | stylesheet_tag: preload: true }}
+
+<div class=" {% if section.settings.show_curve_bg != true %} color-{{ section.settings.color_scheme }} gradient {% endif %}">
+  <div
+    id="{{ section.id }}"
+    class="review-text-columns-section {% if section.settings.enable_pagewidth %}page-width {% else %}review-text-columns-section-padding {% endif %} review-text-columns-container"
+  >
+    <div class="section-heading-wrapper">
+      <div class="rating-text-wrapper">
+        {% if section.settings.section_image %}
+          <div class="rating-image">
+            {{ section.settings.section_image | image_url: width: 500 | image_tag: class: 'section-image' -}}
+          </div>
+        {% endif %}
+        {% if section.settings.section_rtext %}
+          <div class="ratingstar-text">
+            <span>{{ section.settings.section_rtext }}</span>
+          </div>
+        {% endif %}
+      </div>
+      {% if section.settings.sub_title %}
+        <span class="typeset2">{{ section.settings.sub_title }}</span>
+      {% endif %}
+      {% if section.settings.section_title != blank %}
+        <h2 class="h1 section-title cus-section-title">{{ section.settings.section_title }}</h2>
+      {% endif %}
+
+      {% if section.settings.verified_image != blank %}
+      <div class="verified-image">
+        {{ section.settings.verified_image | image_url: width: 1500 | image_tag }}
+      </div>
+    {% endif %}
+    </div>
+
+    <div class="rc-swiper swiper review-text-columns-swiper">
+      <div class="rc-swiper-wrapper swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="rc-swiper-slide swiper-slide ">
+            <div class="review-column">
+              {% if block.settings['block-review-icon'] %}
+                <div class="review-block-icon">
+                  {{ block.settings['block-review-icon'] | image_url: width: 1500 | image_tag }}
+                </div>
+              {% endif %}
+              <div class="review-text-wrapper typeset2">
+                <div class="review-arthur">
+                  <div class="author-wrapper">
+                    <div class="author-name">{{ block.settings.arthur }}</div>
+                    <div class="author-loc">{{ block.settings['arthur-rating-text'] }}</div>
+                  </div>
+                  {% if block.settings.author_image != blank %}
+                    <div class="author-img">
+                      {{ block.settings.author_image | image_url: width: 500 | image_tag: class: 'img-auth' }}
+                    </div>
+                  {% endif %}
+                </div>
+                {% if block.settings.title != blank %}
+                  <div class="review-head typeset1">
+                    <span>
+                      <p>{{ block.settings.title | truncate: 40, '...' }}</p>
+                    </span>
+                  </div>
+                {% endif %}
+                {% if block.settings['arthur-review-icon'] %}
+                  <div class="arthur-rating">
+                    {{ block.settings['arthur-review-icon'] | image_url: width: 1500 | image_tag }}
+                  </div>
+                {% endif %}
+                <div class="review-text typeset2">
+                  {{ block.settings.text | truncate: 290, '...' }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!-- Swiper pagination -->
+    <div class="rtc-swiper-pagination swiper-pagination medium-hide large-up-hide ">&nbsp</div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.review-text-columns-swiper', {
+      loop: true,
+      watchSlidesProgress: true,
+      centeredSlides: false,
+      spaceBetween: 15,
+      speed: 1000, // Smooth transition
+
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: true,
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        749: {
+          slidesPerView: 2,
+        },
+        990: {
+          slidesPerView: 3,
+        },
+        1040: {
+          slidesPerView: 3,
+        },
+      },
+
+      // Uncomment below if you want pagination
+      pagination: {
+       el: '.rtc-swiper-pagination',
+       clickable: true,
+        }
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Review Text Columns",
+  "max_blocks": 10,
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_pagewidth",
+      "label": "Enable Page Width",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_curve_bg",
+      "label": "Show Curve background",
+      "default": true
+    },
+    {
+      "type": "inline_richtext",
+      "id": "section_title",
+      "label": "Section Title"
+    },
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Text Under Heading"
+    },
+    {
+      "type": "color",
+      "id": "review_bg",
+      "label": "Column Background",
+      "default": "#d3d3d3"
+    },
+    {
+      "type": "color",
+      "id": "review_text",
+      "label": "Text Color",
+      "default": "#000"
+    },
+    {
+      "type": "header",
+      "content": "Navigation Buttons"
+    },
+    {
+      "type": "color",
+      "id": "nav_button_color",
+      "label": "Button Color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "nav_button_bg",
+      "label": "Button Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "nav_button_size",
+      "min": 30,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Button Size",
+      "default": 40
+    },
+    {
+      "type": "image_picker",
+      "id": "section_image",
+      "label": "Rating Stars"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "section_rtext",
+      "label": "Rating text"
+    },
+    {
+      "type": "image_picker",
+      "id": "verified_image",
+      "label": "Verified Image"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Margin Bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_column",
+      "name": "Text Column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "block-review-icon",
+          "label": "Section Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Column Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>This is a review or testimonial text block. Add content from the customizer.</p>"
+        },
+        {
+          "type": "text",
+          "id": "arthur",
+          "label": "Arthur"
+        },
+        {
+          "type": "image_picker",
+          "id": "arthur-review-icon",
+          "label": "Rating Stars Image"
+        },
+        {
+          "type": "text",
+          "id": "arthur-rating-text",
+          "label": "Authur Location"
+        },
+        {
+          "type": "image_picker",
+          "id": "author_image",
+          "label": "Author Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Review Text Columns",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "text_column"
+        },
+        {
+          "type": "text_column"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
