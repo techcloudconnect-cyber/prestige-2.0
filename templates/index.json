@@ -45,7 +45,7 @@
       "custom_css": [],
       "settings": {
         "allow_transparent_header": false,
-        "show_next_section_button": true,
+        "show_next_section_button": false,
         "media_size": "fill",
         "show_initial_transition": false,
         "autoplay": true,
@@ -58,18 +58,6 @@
     "scrollingsection_JU3rb7": {
       "type": "scrollingsection",
       "blocks": {
-        "image_with_text_eapbnX": {
-          "type": "image_with_text",
-          "settings": {
-            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
-            "this_text": "16 million bottles shipped globally",
-            "text_color": "#1c1c1c",
-            "desktop_font_size": 15,
-            "mobile_font_size": 20,
-            "desktop_font_weight": 400,
-            "mobile_font_weight": 400
-          }
-        },
         "image_with_text_fdtUzg": {
           "type": "image_with_text",
           "settings": {
@@ -82,10 +70,10 @@
             "mobile_font_weight": 400
           }
         },
-        "image_with_text_miweAi": {
+        "image_with_text_TTLhiF": {
           "type": "image_with_text",
           "settings": {
-            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
+            "this_image": "shopify://shop_images/shield-halved-solid-full.svg",
             "this_text": "16 million bottles shipped globally",
             "text_color": "#1c1c1c",
             "desktop_font_size": 15,
@@ -96,9 +84,8 @@
         }
       },
       "block_order": [
-        "image_with_text_eapbnX",
         "image_with_text_fdtUzg",
-        "image_with_text_miweAi"
+        "image_with_text_TTLhiF"
       ],
       "name": "Custom Scrolling Bar",
       "settings": {
