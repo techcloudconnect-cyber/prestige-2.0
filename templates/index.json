@@ -729,7 +729,7 @@
           "settings": {
             "title": "",
             "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
-            "arthur": "",
+            "arthur": "Daniel M",
             "arthur-review-icon": "shopify://shop_images/stars.svg",
             "arthur-rating-text": ""
           }
@@ -738,8 +738,9 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
-            "arthur": "",
+            "text": "<p>Super fast delivery and excellent customer support. BottleLux really knows how to combine luxury and reliability in one service. Five stars from me!</p>",
+            "arthur": "Michael B",
+            "arthur-review-icon": "shopify://shop_images/stars.svg",
             "arthur-rating-text": ""
           }
         },
@@ -747,8 +748,9 @@
           "type": "text_column",
           "settings": {
             "title": "",
-            "text": "<p>This is a review or testimonial text block. Add content from the customizer.</p>",
-            "arthur": "",
+            "text": "<p>I’ve tried many online wine stores, but BottleLux stands out. Their collection feels carefully curated, and every bottle I’ve received has exceeded expectations.</p>",
+            "arthur": "Emily T",
+            "arthur-review-icon": "shopify://shop_images/stars.svg",
             "arthur-rating-text": ""
           }
         }
