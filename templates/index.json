@@ -61,7 +61,7 @@
         "image_with_text_fdtUzg": {
           "type": "image_with_text",
           "settings": {
-            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
+            "this_image": "shopify://shop_images/c9iFF3pdRYmvVAov62OaOQ_pb_x600_aeb106d7-caea-406f-967a-7dd0f745fcc2.png",
             "this_text": "16 million bottles shipped globally",
             "text_color": "#1c1c1c",
             "desktop_font_size": 15,
@@ -73,8 +73,8 @@
         "image_with_text_TTLhiF": {
           "type": "image_with_text",
           "settings": {
-            "this_image": "shopify://shop_images/shield-halved-solid-full.svg",
-            "this_text": "16 million bottles shipped globally",
+            "this_image": "shopify://shop_images/download_9d3b358c-529e-41f3-9721-ae5e5273b339.webp",
+            "this_text": "16 million bottle",
             "text_color": "#1c1c1c",
             "desktop_font_size": 15,
             "mobile_font_size": 20,
