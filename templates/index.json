@@ -55,6 +55,68 @@
         "controls_color": "#ffffff"
       }
     },
+    "scrollingsection_JU3rb7": {
+      "type": "scrollingsection",
+      "blocks": {
+        "image_with_text_eapbnX": {
+          "type": "image_with_text",
+          "settings": {
+            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
+            "this_text": "16 million bottles shipped globally",
+            "text_color": "#1c1c1c",
+            "desktop_font_size": 15,
+            "mobile_font_size": 20,
+            "desktop_font_weight": 400,
+            "mobile_font_weight": 400
+          }
+        },
+        "image_with_text_fdtUzg": {
+          "type": "image_with_text",
+          "settings": {
+            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
+            "this_text": "16 million bottles shipped globally",
+            "text_color": "#1c1c1c",
+            "desktop_font_size": 15,
+            "mobile_font_size": 20,
+            "desktop_font_weight": 400,
+            "mobile_font_weight": 400
+          }
+        },
+        "image_with_text_miweAi": {
+          "type": "image_with_text",
+          "settings": {
+            "this_image": "shopify://shop_images/wine-glass-solid-full.svg",
+            "this_text": "16 million bottles shipped globally",
+            "text_color": "#1c1c1c",
+            "desktop_font_size": 15,
+            "mobile_font_size": 20,
+            "desktop_font_weight": 400,
+            "mobile_font_weight": 400
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_eapbnX",
+        "image_with_text_fdtUzg",
+        "image_with_text_miweAi"
+      ],
+      "name": "Custom Scrolling Bar",
+      "settings": {
+        "hide_desktop": false,
+        "hide_mobile": false,
+        "scroll_time": 35,
+        "mobile_scroll_time": 40,
+        "bg_color": "#efefef",
+        "padding_top_desktop": 0,
+        "padding_bottom_desktop": 0,
+        "margin_top_desktop": 0,
+        "margin_bottom_desktop": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0
+      }
+    },
     "rich_text_MhMtyf": {
       "type": "rich-text",
       "blocks": {
@@ -377,6 +439,7 @@
   },
   "order": [
     "slideshow",
+    "scrollingsection_JU3rb7",
     "rich_text_MhMtyf",
     "featured_collections_TbXEYQ",
     "collection_list_LtMBtL",
