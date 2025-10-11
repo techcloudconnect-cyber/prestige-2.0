@@ -61,20 +61,8 @@
         "image_with_text_fdtUzg": {
           "type": "image_with_text",
           "settings": {
-            "this_image": "shopify://shop_images/c9iFF3pdRYmvVAov62OaOQ_pb_x600_aeb106d7-caea-406f-967a-7dd0f745fcc2.png",
+            "this_image": "shopify://shop_images/shield-halved-solid-full.svg",
             "this_text": "16 million bottles shipped globally",
-            "text_color": "#1c1c1c",
-            "desktop_font_size": 15,
-            "mobile_font_size": 20,
-            "desktop_font_weight": 400,
-            "mobile_font_weight": 400
-          }
-        },
-        "image_with_text_TTLhiF": {
-          "type": "image_with_text",
-          "settings": {
-            "this_image": "shopify://shop_images/download_9d3b358c-529e-41f3-9721-ae5e5273b339.webp",
-            "this_text": "16 million bottle",
             "text_color": "#1c1c1c",
             "desktop_font_size": 15,
             "mobile_font_size": 20,
@@ -84,8 +72,7 @@
         }
       },
       "block_order": [
-        "image_with_text_fdtUzg",
-        "image_with_text_TTLhiF"
+        "image_with_text_fdtUzg"
       ],
       "name": "Custom Scrolling Bar",
       "settings": {
@@ -94,12 +81,12 @@
         "scroll_time": 35,
         "mobile_scroll_time": 40,
         "bg_color": "#efefef",
-        "padding_top_desktop": 0,
-        "padding_bottom_desktop": 0,
+        "padding_top_desktop": 20,
+        "padding_bottom_desktop": 20,
         "margin_top_desktop": 0,
         "margin_bottom_desktop": 0,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
+        "padding_top_mobile": 15,
+        "padding_bottom_mobile": 15,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0
       }
