@@ -1,3 +1,15 @@
+{% style %}
+  {% if section.settings.horizontal_layout %}
+    #shopify-section-{{ section.id }} .multi-column-junaid .multi-column__item{
+    display:flex;
+    align-items:center;
+    }
+    #shopify-section-{{ section.id }} .multi-column-junaid .overflow-hidden{
+    width:15%;
+    }
+{% endif %}
+{% endstyle %}
+
 {%- if section.blocks.size > 0 -%}
   <style>
     #shopify-section-{{ section.id }} {
@@ -107,6 +119,11 @@
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "horizontal_layout",
+      "label": "Horizontal Layout",
     },
     {
       "type": "checkbox",
