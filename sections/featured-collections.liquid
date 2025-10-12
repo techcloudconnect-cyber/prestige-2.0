@@ -44,12 +44,6 @@
             <h2 class="h2">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</h2>
           {%- endif -%}
 
-          {% comment %} edited add button here  {% endcomment %}
- <div class="justify-self-center">
-                  <a class="button view-all-btn" href="{{ collection.url }}">View All</a>
-                </div>
-        </div>
-
         <featured-collections-carousel id="{{ wrapper_carousel_id }}" class="featured-collections-carousel">
           {%- for block in section.blocks -%}
             <div class="featured-collections-carousel__item {% if forloop.first %}is-selected{% endif %}" {{ block.shopify_attributes }}>
