@@ -1,1 +1,213 @@
-{"sections":{"main":{"type":"main-product","blocks":{"liquid_WNz33W":{"type":"liquid","disabled":true,"settings":{"liquid":"<span style=\"\n    font-size: 18px;\n\">{{product.type}}<\/span>"}},"title":{"type":"title","settings":{"heading_tag":"h3"}},"liquid_K8rqYe":{"type":"liquid","settings":{"liquid":"<div style=\"\n    margin-top: -4%;\n\">\n  {% for tag in product.tags %}\n    {% assign wine_list = \"Ad Hoc, Annais, Best's Great Western, Bremerton, Cape Mentelle, Castelli Estate, Chaplel Hill, Hentley Farm, Josef Chromy, Mitolo, Oakridge, Pikes, Robert Oatley, Taltarni, Wilson Vineyard, Argento, Esquinas, Albert Bichot, Charles Heidsieck, Joseph Drouhin, MiraBeau, Schloss Johannisberg, Casa Edi Mirafiore, Cordero Di Montezemolo, Fontanabianca, Ricasoli, Villa Cialdini, Orin Swift, Dromana-Estate, Mt Moriac, Chateau-Tanunda, Charles-Rueben-Estate, S.Smith-&-Sons, Parish-Vineyards, Pewsey-Vale, Pol-Roger, Thelema-Mountain-Vineyards, Stellenbosch, South Africa, Vasse-Felix, Wirra-Wirra-Vineyards, Allegrini, Antinori, Ashton-Hills, Ata-Rangi, Barringwood, Bekkers, Bleasdale, Bodega-Catena-Zapate, Bodegas-Valdemar, Bowen-Estate, Cantine-Pra, Collector-Wines, Corte-Giara, Deviation-Road, Earthworks, Freycinet-Vineyard, Fromm, Geoges-Duboeuf, Guigal, Haha, Hayshed-Vineyards, Heathcote-Winery, Heirloom-Vineyards, Famille-Hugel, Idee-Fixe, John-Duval, Kanta, Kooyong, Langmeil, Louis-Bouillot, Mesh, Munda-Wines, O'Leary-Walker, Ox-Hardy, Palliser-Estate, Pierre-Gimonnet-&-Fils, Champagne-Pol-Roger, Primo-Estate\" | split: \", \" %}\n\n    {% for wine in wine_list %}\n      {% if tag contains wine %}\n        <span style=\"\n    font-size: 18px;\n\">{{ tag }}<\/span>\n        {% break %}\n      {% endif %}\n    {% endfor %}\n  {% endfor %}\n<\/div>"}},"liquid_TPddW8":{"type":"liquid","disabled":true,"settings":{"liquid":"<div style=\"\n    margin-top: -4%;\n\">\n\n{% assign first_tag = product.tags[0] %}\n{% if first_tag != blank %}\n  {% assign test_number = first_tag | times: 1 %}\n\n  {% if test_number > 0 or first_tag == '0' %}\n    <span style=\"\n    font-size: 18px;\n\">{{ first_tag }}<\/span>\n  {% endif %}\n{% endif %}\n<\/div>"}},"price":{"type":"price","settings":{"show_taxes_notice":false}},"liquid_37E7W3":{"type":"liquid","settings":{"liquid":"<div style=\"\n    margin-top: -4%;\n\">\n{% for tag in product.tags %}\n  {% if tag contains 'Bottle' or tag contains 'bottle' %}\n    <span class=\"h3 text-subdued\" >{{ tag }}<\/span>\n    {% break %}\n  {% endif %}\n{% endfor %}\n<\/div>"}},"payment_terms":{"type":"payment_terms","settings":{}},"separator":{"type":"separator","settings":{}},"description":{"type":"description","settings":{"collapse_content":false,"show_below_gallery":false}},"variant_picker":{"type":"variant_picker","settings":{"hide_sold_out_variants":false,"selector_style":"block","swatch_selector_style":"swatch","variant_image_options":"","size_chart_page":""}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_payment_button":true,"show_gift_card_recipient":true,"atc_button_background":"","atc_button_text_color":"","payment_button_background":"","payment_button_text_color":""}},"complementary_products":{"type":"complementary_products","settings":{"title":"Pairs well with","products_count":2,"show_below_gallery":true,"stack_products":false,"show_quick_buy":true}}},"block_order":["liquid_WNz33W","title","liquid_K8rqYe","liquid_TPddW8","price","liquid_37E7W3","payment_terms","separator","description","variant_picker","quantity_selector","buy_buttons","complementary_products"],"custom_css":[".product-info__block-item {margin-bottom: 0px;}",".product-gallery__media {width: 30%; text-align: center; margin: 0 auto;}"],"settings":{"color_scheme":"","container_size":"lg","product_info_size":35,"show_sticky_add_to_cart":true,"center_basic_info":false,"desktop_media_layout":"carousel_thumbnails_bottom","desktop_media_grid_gap":30,"mobile_controls":"dots","enable_media_autoplay":false,"enable_video_looping":true,"enable_image_zoom":true,"max_image_zoom_level":3}},"image_with_text_zT7pqW":{"type":"image-with-text","blocks":{"subheading_VKVxtg":{"type":"subheading","settings":{"text":"Discover the Perfect Pour: Elevate Your Wine Experience with Each Sip."}},"heading_hQe9RM":{"type":"heading","settings":{"text":"Pouring Elegance","heading_tag":"h1"}},"richtext_eJ6KVa":{"type":"richtext","settings":{"content":"<p>Each pour tells a story of tradition and craftsmanship. Our carefully selected wines capture the essence of their vineyards, offering a sensory journey from the first glimpse to the final sip. Experience the perfect balance of flavor, aroma, and character that only premium Australian wines can deliver.<\/p>"}}},"block_order":["subheading_VKVxtg","heading_hQe9RM","richtext_eJ6KVa"],"settings":{"color_scheme":"","separate_section_with_border":true,"image":"shopify:\/\/shop_images\/kevin-kelly-PPneSBqfCCU-unsplash.png","reveal_on_scroll":true,"image_position":"end","content_width":"md","remove_vertical_spacing":true}},"related-products":{"type":"related-products","settings":{"color_scheme":"","separate_section_with_border":true,"hide_product_information":false,"stack_products":false,"recommendations_count":10,"products_per_row_mobile":"2","products_per_row_desktop":4,"horizontal_spacing_factor":1,"vertical_spacing_factor":1,"subheading":"","title":"You might also like","content":""}}},"order":["main","image_with_text_zT7pqW","related-products"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "liquid_WNz33W": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<span style=\"\n    font-size: 18px;\n\">{{product.type}}</span>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "liquid_K8rqYe": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"\n    margin-top: -4%;\n\">\n  {% for tag in product.tags %}\n    {% assign wine_list = \"Ad Hoc, Annais, Best's Great Western, Bremerton, Cape Mentelle, Castelli Estate, Chaplel Hill, Hentley Farm, Josef Chromy, Mitolo, Oakridge, Pikes, Robert Oatley, Taltarni, Wilson Vineyard, Argento, Esquinas, Albert Bichot, Charles Heidsieck, Joseph Drouhin, MiraBeau, Schloss Johannisberg, Casa Edi Mirafiore, Cordero Di Montezemolo, Fontanabianca, Ricasoli, Villa Cialdini, Orin Swift, Dromana-Estate, Mt Moriac, Chateau-Tanunda, Charles-Rueben-Estate, S.Smith-&-Sons, Parish-Vineyards, Pewsey-Vale, Pol-Roger, Thelema-Mountain-Vineyards, Stellenbosch, South Africa, Vasse-Felix, Wirra-Wirra-Vineyards, Allegrini, Antinori, Ashton-Hills, Ata-Rangi, Barringwood, Bekkers, Bleasdale, Bodega-Catena-Zapate, Bodegas-Valdemar, Bowen-Estate, Cantine-Pra, Collector-Wines, Corte-Giara, Deviation-Road, Earthworks, Freycinet-Vineyard, Fromm, Geoges-Duboeuf, Guigal, Haha, Hayshed-Vineyards, Heathcote-Winery, Heirloom-Vineyards, Famille-Hugel, Idee-Fixe, John-Duval, Kanta, Kooyong, Langmeil, Louis-Bouillot, Mesh, Munda-Wines, O'Leary-Walker, Ox-Hardy, Palliser-Estate, Pierre-Gimonnet-&-Fils, Champagne-Pol-Roger, Primo-Estate\" | split: \", \" %}\n\n    {% for wine in wine_list %}\n      {% if tag contains wine %}\n        <span style=\"\n    font-size: 18px;\n\">{{ tag }}</span>\n        {% break %}\n      {% endif %}\n    {% endfor %}\n  {% endfor %}\n</div>"
+          }
+        },
+        "liquid_TPddW8": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"\n    margin-top: -4%;\n\">\n\n{% assign first_tag = product.tags[0] %}\n{% if first_tag != blank %}\n  {% assign test_number = first_tag | times: 1 %}\n\n  {% if test_number > 0 or first_tag == '0' %}\n    <span style=\"\n    font-size: 18px;\n\">{{ first_tag }}</span>\n  {% endif %}\n{% endif %}\n</div>"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_37E7W3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"\n    margin-top: -4%;\n\">\n{% for tag in product.tags %}\n  {% if tag contains 'Bottle' or tag contains 'bottle' %}\n    <span class=\"h3 text-subdued\" >{{ tag }}</span>\n    {% break %}\n  {% endif %}\n{% endfor %}\n</div>"
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "accordion_Jxa88L": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Product Description",
+            "content": "{{ product.description }}",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pairs well with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": false,
+            "show_quick_buy": true
+          }
+        }
+      },
+      "block_order": [
+        "liquid_WNz33W",
+        "title",
+        "liquid_K8rqYe",
+        "liquid_TPddW8",
+        "price",
+        "liquid_37E7W3",
+        "payment_terms",
+        "separator",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "accordion_Jxa88L",
+        "complementary_products"
+      ],
+      "custom_css": [
+        ".product-info__block-item {margin-bottom: 0px;}",
+        ".product-gallery__media {width: 30%; text-align: center; margin: 0 auto;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "lg",
+        "product_info_size": 50,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 15,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "image_with_text_zT7pqW": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_VKVxtg": {
+          "type": "subheading",
+          "settings": {
+            "text": "Discover the Perfect Pour: Elevate Your Wine Experience with Each Sip."
+          }
+        },
+        "heading_hQe9RM": {
+          "type": "heading",
+          "settings": {
+            "text": "Pouring Elegance",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_eJ6KVa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Each pour tells a story of tradition and craftsmanship. Our carefully selected wines capture the essence of their vineyards, offering a sensory journey from the first glimpse to the final sip. Experience the perfect balance of flavor, aroma, and character that only premium Australian wines can deliver.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VKVxtg",
+        "heading_hQe9RM",
+        "richtext_eJ6KVa"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/kevin-kelly-PPneSBqfCCU-unsplash.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You might also like",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_zT7pqW",
+    "related-products"
+  ]
+}
