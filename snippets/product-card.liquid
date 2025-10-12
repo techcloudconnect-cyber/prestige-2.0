@@ -43,7 +43,7 @@ transition:ease all 0.3s;
 .product-card-junaid:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* shadow on all sides */
 }
-.atc-text {
+span.atc-text {
   font-size: 0.9rem;
 }
 .atc-button[aria-busy="true"] {
@@ -217,7 +217,7 @@ transition:ease all 0.3s;
               {% comment %} <button type="submit" class="product-card__quick-add-button"> edited {% endcomment %}
               <button type="submit" class="button atc-button">
                 {% comment %} edited <span class="sr-only">{{ 'product.general.add_to_cart_button' | t }}</span> {% endcomment %}
-                <span class="atc-text" style="font-size:0.8rem;">{{ 'product.general.add_to_cart_button' | t }}</span>
+                <span class="atc-text">{{ 'product.general.add_to_cart_button' | t }}</span>
                 {%- render 'icon' with 'plus' -%}
               </button>
             {%- endform -%}
