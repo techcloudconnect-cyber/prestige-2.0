@@ -43,6 +43,17 @@
           {%- else -%}
             <h2 class="h2">{{ section.blocks.first.settings.title | default: section.blocks.first.settings.collection.title | default: 'Collection' }}</h2>
           {%- endif -%}
+
+          {% comment %} edited add button here  {% endcomment %}
+            {%- if block.settings.link_text != blank -%}
+                {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
+
+                <div class="justify-self-center">
+                  {%- render 'button', href: button_link, content: block.settings.link_text -%}
+                </div>
+              {%- endif -%}
+
+          
         </div>
 
         <featured-collections-carousel id="{{ wrapper_carousel_id }}" class="featured-collections-carousel">
@@ -92,13 +103,13 @@
                 </product-list>
               {%- endif -%}
 
-              {%- if block.settings.link_text != blank -%}
+              {% comment %} {%- if block.settings.link_text != blank -%}
                 {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
                 <div class="justify-self-center">
                   {%- render 'button', href: button_link, content: block.settings.link_text -%}
                 </div>
-              {%- endif -%}
+              {%- endif -%} {% endcomment %}
             </div>
           {%- endfor -%}
         </featured-collections-carousel>
