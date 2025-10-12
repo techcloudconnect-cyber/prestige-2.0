@@ -19,7 +19,8 @@ html {
 body {
   background: rgb(var(--page-background));
   font: var(--text-font-style) var(--text-font-weight) var(--text-base) / 1.65 var(--text-font-family);
-  letter-spacing: var(--text-letter-spacing);
+  /* letter-spacing: var(--text-letter-spacing); edited */
+  letter-spacing: 0;
   margin: 0;
   position: relative;
 }
