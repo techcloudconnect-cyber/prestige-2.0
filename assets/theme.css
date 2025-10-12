@@ -2366,8 +2366,10 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 @media screen and (min-width: 1000px) {
   .product-list {
     --product-list-max-items-per-row-allowed: 4;
-    --product-list-default-row-gap: 4rem;
-    --product-list-default-column-gap: 3rem;
+    /* --product-list-default-row-gap: 4rem;
+    --product-list-default-column-gap: 3rem; edited */
+    --product-list-default-row-gap: 2rem;
+    --product-list-default-column-gap:1rem;
   }
 
   .product-list--compact {
