@@ -45,15 +45,7 @@
           {%- endif -%}
 
           {% comment %} edited add button here  {% endcomment %}
-            {%- if block.settings.link_text != blank -%}
-                {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
-                <div class="justify-self-center">
-                  {%- render 'button', href: button_link, content: block.settings.link_text -%}
-                </div>
-              {%- endif -%}
-
-          
         </div>
 
         <featured-collections-carousel id="{{ wrapper_carousel_id }}" class="featured-collections-carousel">
@@ -103,13 +95,13 @@
                 </product-list>
               {%- endif -%}
 
-              {% comment %} {%- if block.settings.link_text != blank -%}
+              {%- if block.settings.link_text != blank -%}
                 {%- assign button_link = block.settings.link_url | default: block.settings.collection.url | default: '#' -%}
 
                 <div class="justify-self-center">
                   {%- render 'button', href: button_link, content: block.settings.link_text -%}
                 </div>
-              {%- endif -%} {% endcomment %}
+              {%- endif -%}
             </div>
           {%- endfor -%}
         </featured-collections-carousel>
