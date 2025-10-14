@@ -38,15 +38,17 @@
             "liquid": "<div style=\"\n    margin-top: -4%;\n\">\n\n{% assign first_tag = product.tags[0] %}\n{% if first_tag != blank %}\n  {% assign test_number = first_tag | times: 1 %}\n\n  {% if test_number > 0 or first_tag == '0' %}\n    <span style=\"\n    font-size: 18px;\n\">{{ first_tag }}</span>\n  {% endif %}\n{% endif %}\n</div>"
           }
         },
+        "icon_text_wrapper_8wjVNK": {
+          "type": "icon_text_wrapper",
+          "settings": {
+            "j_head": "Testing"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
           }
-        },
-        "icon_text_wrapper_8wjVNK": {
-          "type": "icon_text_wrapper",
-          "settings": {}
         },
         "liquid_37E7W3": {
           "type": "liquid",
@@ -122,8 +124,8 @@
         "title",
         "liquid_K8rqYe",
         "liquid_TPddW8",
-        "price",
         "icon_text_wrapper_8wjVNK",
+        "price",
         "liquid_37E7W3",
         "payment_terms",
         "separator",
