@@ -16,38 +16,45 @@
   * context: can be "product", "line_item" or "card". This controls how the prices are displayed (using the correct sizes)
 {%- endcomment -%}
 <style>
-  .Junaid {
+/* Make sure product image container is positioned properly */
+.product-single__media,
+.product__media,
+.product-card-junaid {
+  position: relative;
+}
+
+/* Circle badge styling */
+.Junaid {
   position: absolute;
-  top: 15px;              /* adjust to move vertically */
-  right: 15px;            /* adjust to move horizontally */
-  background-color: #000; /* black background */
-  color: #fff;            /* white text */
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;     /* makes it a circle */
+  top: 15px;               /* move vertically */
+  right: 15px;             /* move horizontally */
+  background-color: #000;  /* black background */
+  color: #fff;             /* white text */
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.2;
-  z-index: 10;
   text-transform: uppercase;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  transition: all 0.3s ease;
 }
 
+.Junaid:hover {
+  transform: scale(1.05);
+}
+
+/* Fix spacing between SAVE and amount */
 .Junaid br {
   display: block;
   margin: 2px 0;
-}
-
-.Junaid::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 </style>
