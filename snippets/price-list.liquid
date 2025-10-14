@@ -57,7 +57,7 @@ Supported variables
 
     {%- if variant.compare_at_price > variant.price -%}
       <compare-at-price class="{{ compare_at_price_classes }}">
-        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+        <span class="sr-only 1">{{ 'product.price.regular_price' | t }}</span>
 
         {%- if settings.currency_code_enabled -%}
           {{- variant.compare_at_price | money_with_currency -}}
@@ -84,7 +84,7 @@ Supported variables
 
     {%- if line_item.original_price > line_item.final_price -%}
       <compare-at-price class="{{ compare_at_price_classes }}">
-        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+        <span class="sr-only 2">{{ 'product.price.regular_price' | t }}</span>
 
         {%- if settings.currency_code_enabled -%}
           {{- line_item.original_price | money_with_currency -}}
@@ -142,7 +142,7 @@ Supported variables
 
     {%- if variant.price < variant.compare_at_price -%}
       <compare-at-price class="{{ compare_at_price_classes }}">
-        <span class="sr-only">{{ 'product.price.regular_price' | t }}</span>
+        <span class="sr-only 3">{{ 'product.price.regular_price' | t }}</span>
         {{- variant_compare_at_price -}}
       </compare-at-price>
     {%- endif -%}
