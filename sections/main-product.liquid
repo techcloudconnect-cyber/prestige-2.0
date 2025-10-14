@@ -85,6 +85,36 @@
                     {%- endif -%}
                   {%- endif -%}
 
+                {%- when 'icon_text_wrapper' -%}
+                  <div class="junaid-feature-section">
+
+  <!-- 1️⃣ Feature One -->
+  <div class="junaid-feature">
+    <div class="junaid-icon">
+      <i class="fa-solid fa-wine-bottle"></i>
+    </div>
+    <div class="junaid-text">Premium Quality Wines</div>
+  </div>
+
+  <!-- 2️⃣ Feature Two -->
+  <div class="junaid-feature">
+    <div class="junaid-icon">
+      <i class="fa-solid fa-truck"></i>
+    </div>
+    <div class="junaid-text">Fast & Safe Delivery</div>
+  </div>
+
+  <!-- 3️⃣ Feature Three -->
+  <div class="junaid-feature">
+    <div class="junaid-icon">
+      <i class="fa-solid fa-rotate-left"></i>
+    </div>
+    <div class="junaid-text">Easy Return Policy</div>
+  </div>
+
+</div>
+
+
                 {%- when 'accordion' -%}
                   {%- liquid
                     assign accordion_title = block.settings.title | default: block.settings.page.title
