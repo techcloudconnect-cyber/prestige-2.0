@@ -86,7 +86,7 @@
                   {%- endif -%}
 
                 {%- when 'icon_text_wrapper' -%}
-                      <h3>Icon wrapper</h3>
+                      <h3>{{block.settings.j_head}}</h3>
 
                   <div class="junaid-feature-section">
 
@@ -863,7 +863,11 @@ quick buy information in a template, that will be extracted in JS, which ensures
       "name": "J Icon Wrapper",
       "limit": 1,
       "settings": [
-
+        {
+          "type": "inline_richtext",
+          "id": "j_head",
+          "label": "Heading",
+        },
       ]
     },
     {
