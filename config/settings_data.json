@@ -40,7 +40,7 @@
     "product_rating_mode": "rating",
     "show_quick_buy": true,
     "show_sold_out_badge": true,
-    "discount_mode": "percentage",
+    "discount_mode": "saving",
     "cart_type": "message",
     "cart_icon": "shopping_cart",
     "cart_show_free_shipping_bar": true,
