@@ -15,6 +15,42 @@
   * hide_unit_price: if set to true unit prices are hidden (mostly useful for size constrained elements)
   * context: can be "product", "line_item" or "card". This controls how the prices are displayed (using the correct sizes)
 {%- endcomment -%}
+<style>
+  .Junaid {
+  position: absolute;
+  top: 15px;              /* adjust to move vertically */
+  right: 15px;            /* adjust to move horizontally */
+  background-color: #000; /* black background */
+  color: #fff;            /* white text */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;     /* makes it a circle */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  z-index: 10;
+  text-transform: uppercase;
+}
+
+.Junaid br {
+  display: block;
+  margin: 2px 0;
+}
+
+.Junaid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+</style>
 
 {%- liquid
   case context
@@ -66,13 +102,9 @@
         {%- endif -%}
       </compare-at-price>
       {%- if variant.compare_at_price > variant.price -%}
-  {%- assign savings = variant.compare_at_price | minus: variant.price -%}
-  <div class="save-badge">
-    <span class="save-label">SAVE</span>
-    <span class="save-amount">{{ savings | money }}</span>
-  </div>
-{%- endif -%}
-
+        {%- assign savings = variant.compare_at_price | minus: variant.price -%}
+        <div class="Junaid price-savings h6 text-on-sale"> Save {{ savings | money }}</div>
+      {%- endif -%}
     {%- endif -%}
 
   {%- elsif line_item != blank -%}
