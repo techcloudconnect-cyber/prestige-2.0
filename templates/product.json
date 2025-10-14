@@ -44,6 +44,10 @@
             "show_taxes_notice": false
           }
         },
+        "icon_text_wrapper_8wjVNK": {
+          "type": "icon_text_wrapper",
+          "settings": {}
+        },
         "liquid_37E7W3": {
           "type": "liquid",
           "settings": {
@@ -119,6 +123,7 @@
         "liquid_K8rqYe",
         "liquid_TPddW8",
         "price",
+        "icon_text_wrapper_8wjVNK",
         "liquid_37E7W3",
         "payment_terms",
         "separator",
