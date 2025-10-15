@@ -3133,9 +3133,11 @@ tr[onclick]:hover {
 
 .price-list {
   flex-wrap: wrap;
-  align-items: baseline;
+  /* align-items: baseline; */
+  align-items: center;
   column-gap: .5rem;
   display: flex;
+  padding: 1rem 0;
 }
 
 .price-list--product {
