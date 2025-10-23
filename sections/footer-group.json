@@ -40,6 +40,7 @@
         },
         "newsletter_LG67iF": {
           "type": "newsletter",
+          "disabled": true,
           "settings": {
             "title": "Subscribe now and Save $20",
             "content": "<p>Join us to receive exclusive offers.</p>",
