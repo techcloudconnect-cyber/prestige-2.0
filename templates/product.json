@@ -194,23 +194,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "hide_product_information": false,
-        "stack_products": false,
-        "recommendations_count": 10,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "",
-        "title": "You might also like",
-        "content": ""
-      }
-    },
     "1771141582eecd8dfd": {
       "type": "apps",
       "blocks": {
@@ -249,11 +232,31 @@
       "block_order": [
         "judge_me_reviews_cards_carousel_6i8HeD"
       ],
+      "custom_css": [
+        ".color-scheme {overflow: hidden; }"
+      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "You might also like",
+        "content": ""
       }
     }
   },
